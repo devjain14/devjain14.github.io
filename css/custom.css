@@ -67,7 +67,7 @@ header{
     text-align: center;
     margin:auto;
     width:100px;
-
+    background:transparent;
   }
 }
 
@@ -113,7 +113,7 @@ header{
     font-size:130%;
     font-family:" ff-meta-serif-web-pro", Georgia, serif;
     color:grey;
-    line-height:150%;
+    line-height:140%;
 }
 .about_details {
     color: #000731;
@@ -225,8 +225,16 @@ header{
    #subdetail{
     font-size:1.2em;
    }
-   #aboutMe{
-    /*font-size:130%;*/
-    line-height:130%;
+    #headerimage{
+    width:50px;
+    height:50px;
+  /*  border:20px solid #0070c9;*/
 }
+}
+@media only screen and (max-width: 500px) {
+#aboutMe{
+    /*font-size:130%;*/
+    font-size: 100%;
+    line-height: 130%;
+}   
 }

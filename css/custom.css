@@ -68,6 +68,7 @@ header{
     margin:auto;
     width:100px;
     background:transparent;
+    margin-bottom: -20px;
   }
 }
 
@@ -92,10 +93,9 @@ header{
     font-size:1.5em;
 }
 /*About*/
-/*#aboutSection{
-    padding:0 2px 2px 2px;
-    margin:0 2px 2px 2px;
-}*/
+#about{
+    height:450px;
+}
 #buttons{               
     text-align:center;
     font-size:1.4em;
@@ -221,6 +221,8 @@ header{
    }
    #detail{
     font-size:1.5em;
+    padding:8% 0 10% 0;
+    line-height:190%;
    }
    #subdetail{
     font-size:1.2em;
@@ -230,11 +232,17 @@ header{
     height:50px;
   /*  border:20px solid #0070c9;*/
 }
+    #header{
+    height:550px; 
+    }
 }
 @media only screen and (max-width: 500px) {
 #aboutMe{
     /*font-size:130%;*/
     font-size: 100%;
     line-height: 130%;
+    padding-top: 50px;
 }   
+#skills{
+    padding-top: 70px;
 }

@@ -1,151 +1,215 @@
 <!Doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <meta name="Author" content="devjain.com"> -->
-        <link rel="stylesheet" href="./css/bootstrap.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="./css/custom.css">
-        <title> Dev Jain | Portfolio  </title>
-        <link rel="shortcut icon" href="img/symbol.jpg">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </head>
-    <div class="main">
-        <body>
-            <!--Header-->
-            <section id="header" align="center">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="Author" content="devjain.com"> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <title> Dev Jain | Portfolio </title>
+    <link rel="shortcut icon" href="img/symbol.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<div class="main">
+
+    <body>
+        <!--Header-->
+        <section id="header" align="center">
             <header>
-            <img src="img/symbol3.jpg" alt="Dev" class="img-circle" id="headerimage">
-            <div class="topnav" id="myTopnav">  
-                  <a href="#contact">Contact</a>
-                  <a href="#project">Projects</a>
-                  <a href="#about">About</a>
-                  <a class="active" href="#header">Home</a>
-                  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
-            </header>
-                <div class="name">DEV JAIN</div>
-                <div id="detail"><span style="color:#e55102;">Front End Developer</span> & UI Designer, devoted to functional <br> programming and information architecture.</div>
-                <span id="subdetail">  " Web Developer - Designer " </span>
-            </section>
-            <!--HeaderEnd-->
-            <!--About-->
-            <section id="about">
-                <div class ="row" id="buttons">
-                    <div class="col-xs-3 col-md-3" ></div>
-                    <div class="col-xs-3 col-md-3" ><a id="aboutbutton1" onclick="aboutMe()" style="color:#e55102">ABOUT</a></div>
-                    <div class="col-xs-3 col-md-3" ><a id="aboutbutton2" onclick="skills()" >SKILLS</a></div>
-                    <div class="col-xs-3 col-md-3" ></div>
+                <img src="img/symbol3.jpg" alt="Dev" class="img-circle" id="headerimage">
+                <div class="topnav" id="myTopnav">
+                    <a href="#contact">Contact</a>
+                    <a href="#project">Projects</a>
+                    <a href="#about">About</a>
+                    <a class="active" href="#header">Home</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
-                <div id="aboutSection" >
-                    <div id="aboutMe">
+            </header>
+            <div class="name">DEV JAIN</div>
+            <div id="detail"><span style="color:#e55102;">Web Developer</span> & UI Designer, devoted to functional <br> programming and information architecture.</div>
+            <span id="subdetail">  " Web Developer - Designer " </span>
+        </section>
+        <!--HeaderEnd-->
+        <!--About-->
+        <section id="about">
+            <div class="row" id="buttons">
+                <div class="col-xs-3 col-md-3"></div>
+                <div class="col-xs-3 col-md-3"><a id="aboutbutton1" onclick="aboutMe()" style="color:#e55102">ABOUT</a></div>
+                <div class="col-xs-3 col-md-3"><a id="aboutbutton2" onclick="skills()">SKILLS</a></div>
+                <div class="col-xs-3 col-md-3"></div>
+            </div>
+            <div id="aboutSection">
+                <div id="aboutMe">
                     <div class="row">
-                    <div class="col-md-3 col-xs-2"></div>
-                    <div class="col-md-6 col-xs-8">
-                        <p>I'm a web-designer & front-end developer. At present I am pursuing Computer Science Engineering. I like to solve and code Algorithms. </p>
-                        <br>
-                        <p>I,m a fast-learner. I enjoy a challenge and look for the opportunity to expand and develop my skill set.</p>
-                        <br>
-                        <p>When I'm not burying myself in studies, I'm most likely writing couplets,poems, watching films,series,cricket,etc, and I love dance.</p>
-                        <br>
+                        <div class="col-md-3 col-xs-2"></div>
+                        <div class="col-md-6 col-xs-8">
+                            <p>I'm a web-designer & front-end developer. At present I am pursuing Computer Science Engineering. I like to solve and code Algorithms. </p>
+                            <br>
+                            <p>I'm a fast-learner. I enjoy a challenge and look for the opportunity to expand and develop my skill set.</p>
+                            <br>
+                            <p>When I'm not burying myself in studies, I'm most likely writing couplets, poems, watching films, series, cricket, etc., and I like to dance and singing.</p>
+                            <br>
                         </div>
                         <div class="col-md-3 col-xs-2"></div>
                     </div>
-                    </div>
-                    <div id="skills" >
+                </div>
+                <div id="skills">
                     <div class="row">
-                     <div class="col-md-1 col-xs-1"></div>
-                      <div class="col-md-5 col-xs-5">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 60%">C/C++
+                        <div class="col-md-1 col-xs-1"></div>
+                        <div class="col-md-5 col-xs-5">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 60%">C/C++
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 70%">JAVA
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">HTML/CSS
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Bootstrap
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 72%">JavaScript
+                                </div>
                             </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 70%">JAVA
+                        <div class="col-md-5 col-xs-5">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 75%">AngularJS
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 68%">Photoshop
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">Android
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Teaching
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">Learning
+                                </div>
                             </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">HTML/CSS
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Bootstrap
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 72%">JQuery/JavaScript
-                            </div>
-                        </div>
-                        </div>
-                         <div class="col-md-5 col-xs-5">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 75%">AngularJS
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 68%">Photoshop
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">Android
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Teaching
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">Learning
-                            </div>
-                        </div>
-                        </div>
-                         <div class="col-md-1 col-xs-1"></div>
-                        </div><!--Row End-->
+                        <div class="col-md-1 col-xs-1"></div>
                     </div>
+                    <!--Row End-->
                 </div>
-                <!--aboutSectionEnd-->
-            </section>
-            <!--AboutEnd-->
-            <!--Project-->
-            <section id="project">
-                <div id="projectHead"><span style="border-bottom: 4px solid #e55102;">PROJECTS</span></div>
-                <div class="row">
-                    <div class="col-xs-3 col-md-3">
-                        <img src="img/APJ.jpg" alt="APJ First Pic" class="img-responsive" id="project_image1">
-                    </div>
-                    
-                    <div class="col-xs-7 col-md-7">
-                        <img src="img/site.jpg" alt="Portfolio" class="img-responsive" id="project_image2">
-                    </div>   
-                </div>
-            </section>>
-            <!--Contact-->
-            <section id="contact">
-                <div class="row">
-                    <div class="col-md-3 col-xs-12 contmail1">
-                        <a class="contactmail"><i class="fa fa-envelope-o" ></i> <span>dev141097@gmail.com</span></a>
-                    </div>
-                   <div class="col-md-6 col-xs-12">
-                    <div class="social">
-                            <a href="https://www.facebook.com/dev.jain.395"><i class="fa fa-facebook-square" id="social_icon"></i></a>
-                            <a href="https://www.linkedin.com/in/dev-jain-6917ab141/"><i class = "fa fa-linkedin" id="social_icon" ></i></a>
-                            <a href="https://www.instagram.com/_devjain/?hl=en"><i class = "fa fa-instagram" id="social_icon" ></i></a>
-                            <a href="https://twitter.com/dextrousdev"><i class = "fa fa-twitter" id="social_icon" ></i></a>
-                            <a href="https://github.com/devjain14"><i class = "fa fa-github" id="social_icon" ></i></a>
-                            <a href="https://plus.google.com/115262492954351386933"><i class = "fa fa-google-plus" id="social_icon" style="height: 42px; width: 42px; padding-top: -20px;" ></i></a>
-                    </div>
-                    </div>
-                    <div class="col-md-3 col-xs-12 contmail2">
-                        <a class="contactmail"><i class="fa fa-phone"></i> <span>+91-8878352724</span></a>
-                    </div>
             </div>
-            </section>
-            <!--Contactend-->
+            <!--aboutSectionEnd-->
+        </section>
+        <!--AboutEnd-->
+        <!--Project-->
+        <section id="project">
+            <div id="projectHead"><span style="border-bottom: 4px solid #e55102;">PROJECTS</span></div>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <a class="project_name" href="http://ngoindex.info/">
+                            <h2 style="font-family: brandon-grotesque; font-weight:bold;">Blood Donors United</h2>
+                        </a>
+                        <div class="row">
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-8 col-xs-8">
+                                <h4><span style="font-style:normal;color:white;">This is the website to bring the potential blood donors and the people in need close enough to each other that they can connect very easily.The special thing about Blood Donors United is that the people in need don't need any hassle of signup or login.The situations where each second may be crucial, the people in need should not be bothered by sign up form and login systems.<br>Technologies used in the project are :- Html, css, bootstrap, javascript, php, mysql, Google places API.</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="project_name" href="https://github.com/devjain14/Notice-Board">
+                            <h2 style="font-family: brandon-grotesque;font-weight:bold;">Notifier</h2>
+                        </a>
+                        <div class="row">
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-8 col-xs-8">
+                                <h4><span style="font-style:normal;color:white;">This is a web-app through which students can be notified by teachers, about Notice-Board notices in college campus like cultural events, class and exam time-table, meetings, extra-classes, etc.In the same way It is an MVC app which has realtime database update and fetching features.<br>The project is made using Angular-JS framework for front & middle end and Google Firebase for back-end.</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="project_name" href="https://github.com/devjain14/Temperature-App">
+                            <h2 style="font-family: brandon-grotesque;
+    font-weight:bold;">Temperature App</h2>
+                        </a>
+                        <div class="row">
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-8 col-xs-8">
+                                <h4><span style="font-style:normal;color:white;">This is a simple web-app which uses latitude and longitude to find the temperaure and weather of that place.<br>I've used Dark Sky API in this project.</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="project_name" href="https://github.com/devjain14/D3-JS">
+                            <h2 style="font-family: brandon-grotesque;
+    font-weight:bold;">Dynamic Website Charts</h2>
+                        </a>
+                        <div class="row">
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-8 col-xs-8">
+                                <h4><span style="font-style:normal;color:white;">D3.js, a javascript library, is used for  manipulating documents based on data.  I made data visualizations to visualize data into Bar, Pie, Donut, Radial Charts, which is the transformation of enterprise data using D3.js.</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 contmail1">
+                    <a class="contactmail"><i class="fa fa-envelope-o" ></i> <span>dev141097@gmail.com</span></a>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="social">
+                        <a href="https://www.facebook.com/dev.jain.395"><i class="fa fa-facebook-square" id="social_icon"></i></a>
+                        <a href="https://www.linkedin.com/in/dev-jain-6917ab141/"><i class = "fa fa-linkedin" id="social_icon" ></i></a>
+                        <a href="https://www.instagram.com/_devjain/?hl=en"><i class = "fa fa-instagram" id="social_icon" ></i></a>
+                        <a href="https://twitter.com/dextrousdev"><i class = "fa fa-twitter" id="social_icon" ></i></a>
+                        <a href="https://github.com/devjain14"><i class = "fa fa-github" id="social_icon" ></i></a>
+                        <a href="https://plus.google.com/115262492954351386933"><i class = "fa fa-google-plus" id="social_icon" style="height: 42px; width: 42px; padding-top: -20px;" ></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 contmail2">
+                    <a class="contactmail"><i class="fa fa-phone"></i> <span>+91-8878352724</span></a>
+                </div>
+            </div>
+        </section>
+        <!--Contactend-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="js/main.js"></script>            
-        </body>
-    </div>
-    <!--Mainend-->
+        <script src="js/main.js"></script>
+    </body>
+</div>
+<!--Mainend-->
+
 </html>

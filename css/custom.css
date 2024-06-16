@@ -94,7 +94,7 @@ header{
 }
 /*About*/
 #about{
-    height:450px;
+    height:auto;
 }
 #buttons{               
     text-align:center;

@@ -95,7 +95,6 @@ header{
 /*About*/
 #about{
     height:auto;
-    padding:0 0 30% 0;
 }
 #buttons{               
     text-align:center;
@@ -115,6 +114,7 @@ header{
     font-family:" ff-meta-serif-web-pro", Georgia, serif;
     color:grey;
     line-height:140%;
+    height:auto;
 }
 .about_details {
     color: #000731;
